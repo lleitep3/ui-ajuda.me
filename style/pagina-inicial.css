@@ -40,10 +40,16 @@ html *{
     color: #544F55;
 }
 /* fim - cores de texto */
+
 /* tamanho de texto */
+.txt11{
+    font-size: 11px;
+}
+
 .txt12{
     font-size: 12px;
 }
+
 .txt14{
     font-size: 14px;
 }
@@ -53,19 +59,26 @@ html *{
 }
 /* fim - tamanho de texto */
 
+/* Aredondamentos */
 .borda-esquerda-rodape-radio-personalizado{
     -webkit-border-bottom-left-radius: 50px 100px;
     -moz-border-radius-bottomleft: 50px 100px;
     border-bottom-left-radius: 50px 100px;
     border-left: solid #fff 5px;
 }
+
+.aredondar{
+    border-radius: 10px;
+}
+
+.aredondar-topo{
+    border-radius: 10px 0;
+}
+/* fim - Aredondamentos */
+
 /* Menu Superior */
 #menu-superior {
     margin-bottom : 0.875em;
-    height: 40px;
-}
-#menu-superior, #menu-superior > div{
-    height: 40px;
 }
 #menu-superior .box-informacoes-usuario .image-profile{
     height: 24px;
@@ -108,3 +121,11 @@ html *{
     margin-bottom: 10px;
 }
 /* fim - Menu Lateral */
+
+/* Segunda coluna */
+.mensagem-perfil{
+    min-height: 100px;
+    padding: 10px 0;
+}
+/* fim - Segunda coluna */
+
