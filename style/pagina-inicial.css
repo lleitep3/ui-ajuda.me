@@ -1,0 +1,68 @@
+/* 
+    Document   : pagina-inicial
+    Created on : 27/04/2013, 22:59:14
+    Author     : leandro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html *{
+    font-family: sans-serif;
+}
+/* cores de fundo */
+.fundo-azul{
+    background-color: #68C8C9;
+}
+
+.fundo-branco{
+    background-color: #FFFFFF;
+}
+
+.fundo-cinza-escuro{
+    background-color: #544F55;
+}
+/* fim - cores de fundo */
+
+.borda-esquerda-rodape-radio-personalizado{
+    -webkit-border-bottom-left-radius: 50px 100px;
+    -moz-border-radius-bottomleft: 50px 100px;
+    border-bottom-left-radius: 50px 100px;
+}
+/* Menu Superior */
+#menu-superior {
+    margin-bottom : 0.875em;
+    height: 40px;
+}
+#menu-superior, #menu-superior > div{
+    height: 40px;
+}
+#menu-superior .box-informacoes-usuario .nome{
+    color: #FFFFFF;
+}
+#menu-superior .box-informacoes-usuario .image-profile{
+    height: 24px;
+    width: 24px;
+}
+#menu-superior input{
+    border-radius: 5px;
+}
+/* fim - Menu Superior */
+/* Menu Lateral */
+#menu-lateral .image-profile{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#menu-lateral .perfil{
+    min-height: 325px;
+    -webkit-border-bottom-right-radius: 180px 75px;
+    -moz-border-radius-bottomright: 180px 75px;
+    border-bottom-right-radius: 180px 75px;
+}
+#menu-lateral .box-informacoes-usuario .nome{
+    color: #FFFFFF;
+}
+#menu-lateral .box-informacoes-usuario .image-profile{
+    height: 171px;
+    width: 171px;
+}
+/* fim - Menu Lateral */
