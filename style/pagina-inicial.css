@@ -22,6 +22,19 @@ html *{
     background-color: #544F55;
 }
 /* fim - cores de fundo */
+/* cores de texto */
+.texto-laranja{
+    color: #F17E53;
+}
+.texto-branco{
+    color: #FFFFFF;
+}
+.texto-escuro{
+    color: #544F55;
+}
+/* fim - cores de texto */
+
+
 
 .borda-esquerda-rodape-radio-personalizado{
     -webkit-border-bottom-left-radius: 50px 100px;
@@ -36,9 +49,6 @@ html *{
 #menu-superior, #menu-superior > div{
     height: 40px;
 }
-#menu-superior .box-informacoes-usuario .nome{
-    color: #FFFFFF;
-}
 #menu-superior .box-informacoes-usuario .image-profile{
     height: 24px;
     width: 24px;
@@ -48,15 +58,20 @@ html *{
 }
 /* fim - Menu Superior */
 /* Menu Lateral */
+#menu-lateral{
+    padding: 0px;
+    margin-left: 0.875em;
+}
 #menu-lateral .image-profile{
     margin-top: 15px;
     margin-bottom: 15px;
 }
 #menu-lateral .perfil{
     min-height: 325px;
-    -webkit-border-bottom-right-radius: 180px 75px;
-    -moz-border-radius-bottomright: 180px 75px;
-    border-bottom-right-radius: 180px 75px;
+    -webkit-border-bottom-right-radius: 170px 120px;
+    -moz-border-radius-bottomright: 170px 120px;
+    border-bottom-right-radius: 170px 120px;
+    border-bottom: solid #fff 5px;
 }
 #menu-lateral .box-informacoes-usuario .nome{
     color: #FFFFFF;
@@ -64,5 +79,9 @@ html *{
 #menu-lateral .box-informacoes-usuario .image-profile{
     height: 171px;
     width: 171px;
+}
+
+#menu-lateral .sub-menu-lateral{
+    margin-top: 0.875em;
 }
 /* fim - Menu Lateral */
