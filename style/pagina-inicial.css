@@ -6,6 +6,13 @@
         Purpose of the stylesheet follows.
 */
 
+a, a:hover, a:focus{
+    color: #F17E53;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
 html *{
     font-family: sans-serif;
 }
@@ -33,13 +40,24 @@ html *{
     color: #544F55;
 }
 /* fim - cores de texto */
+/* tamanho de texto */
+.txt12{
+    font-size: 12px;
+}
+.txt14{
+    font-size: 14px;
+}
 
-
+.bold{
+    font-weight: bold;
+}
+/* fim - tamanho de texto */
 
 .borda-esquerda-rodape-radio-personalizado{
     -webkit-border-bottom-left-radius: 50px 100px;
     -moz-border-radius-bottomleft: 50px 100px;
     border-bottom-left-radius: 50px 100px;
+    border-left: solid #fff 5px;
 }
 /* Menu Superior */
 #menu-superior {
@@ -83,5 +101,10 @@ html *{
 
 #menu-lateral .sub-menu-lateral{
     margin-top: 0.875em;
+}
+#menu-lateral .sub-menu-lateral ul.side-nav{
+    border-top: solid #706B71 2px; 
+    border-bottom: solid #706B71 2px;
+    margin-bottom: 10px;
 }
 /* fim - Menu Lateral */
