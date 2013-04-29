@@ -5,7 +5,7 @@
     Description:
         Purpose of the stylesheet follows.
 */
-
+@import url(http://fonts.googleapis.com/css?family=Comfortaa);
 a, a:hover, a:focus{
     color: #F17E53;
     font-weight: bold;
@@ -14,7 +14,7 @@ a:hover{
     text-decoration: underline;
 }
 html *{
-    font-family: sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 /* cores de fundo */
 .fundo-azul{
@@ -103,8 +103,6 @@ html *{
 /* fim - Menu Superior */
 /* Menu Lateral */
 #menu-lateral{
-    padding: 0px;
-    margin-left: 0.875em;
 }
 #menu-lateral .image-profile{
     margin-top: 15px;
@@ -121,8 +119,8 @@ html *{
     color: #FFFFFF;
 }
 #menu-lateral .box-informacoes-usuario .image-profile{
-    height: 171px;
-    width: 171px;
+    height: 123px;
+    width: 123px;
 }
 
 #menu-lateral .sub-menu-lateral{
@@ -148,9 +146,17 @@ html *{
     margin-bottom: 0.5em;
 }
 
+.box-divulgacao .comentario textarea{
+    background-color: #f6f6f6;
+    margin: 0px 0px 14px;
+    height: 57px;
+    width: 100%;
+    resize: none;
+}
+
 .info-de-postagem img{
-    height: 80px;
-    width: 80px;
+    height: 56px;
+    width: 56px;
     border:solid #fefefe 2px;
 }
 #timeline-interesse{
