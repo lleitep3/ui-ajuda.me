@@ -7,7 +7,8 @@
 */
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
 a, a:hover, a:focus{
-    color: #F17E53;
+    color: #E77353;
+    font-family: Helvetica Bold;
     font-weight: bold;
 }
 a:hover{
@@ -18,7 +19,7 @@ html *{
 }
 /* cores de fundo */
 .fundo-azul{
-    background-color: #68C8C9;
+    background-color: #69C8C9;
 }
 .fundo-azul-titulo{
     background-color: #C3E9E9;
