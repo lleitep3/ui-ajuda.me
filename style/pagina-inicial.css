@@ -8,7 +8,6 @@
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
 a, a:hover, a:focus{
     color: #E77353;
-    font-family: Helvetica Bold;
     font-weight: bold;
 }
 a:hover{
@@ -58,8 +57,12 @@ html *{
     font-size: 12px;
 }
 
-.txt14{
-    font-size: 14px;
+.txt13{
+    font-size: 13px;
+}
+
+.txt15{
+    font-size: 15px;
 }
 
 .bold{
@@ -69,9 +72,9 @@ html *{
 
 /* Aredondamentos */
 .borda-esquerda-rodape-radio-personalizado{
-    -webkit-border-bottom-left-radius: 50px 100px;
-    -moz-border-radius-bottomleft: 50px 100px;
-    border-bottom-left-radius: 50px 100px;
+    -webkit-border-bottom-left-radius: 80px 100px;
+    -moz-border-radius-bottomleft: 80px 100px;
+    border-bottom-left-radius: 80px 100px;
     border-left: solid #fff 5px;
 }
 
@@ -91,8 +94,15 @@ html *{
 /* fim - Aredondamentos */
 
 /* Menu Superior */
+.top-bar{
+    height: 30px;
+    line-height: 28px;
+}
+.top-bar input{
+    top:1px;
+}
 #menu-superior {
-    margin-bottom : 0.875em;
+    margin-bottom : 0.5em;
 }
 #menu-superior .box-informacoes-usuario .image-profile{
     height: 24px;
@@ -103,8 +113,6 @@ html *{
 }
 /* fim - Menu Superior */
 /* Menu Lateral */
-#menu-lateral{
-}
 #menu-lateral .image-profile{
     margin-top: 15px;
     margin-bottom: 15px;
@@ -120,8 +128,8 @@ html *{
     color: #FFFFFF;
 }
 #menu-lateral .box-informacoes-usuario .image-profile{
-    height: 123px;
-    width: 123px;
+    height: 137px;
+    width: 137px;
 }
 
 #menu-lateral .sub-menu-lateral{
