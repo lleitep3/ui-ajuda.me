@@ -6,6 +6,12 @@
         Purpose of the stylesheet follows.
 */
 @import url(http://fonts.googleapis.com/css?family=Comfortaa);
+html *{
+    font-family: 'Comfortaa', cursive;
+}
+html{
+    color: #544F55;
+}
 a, a:hover, a:focus{
     color: #E77353;
     font-weight: bold;
@@ -13,19 +19,17 @@ a, a:hover, a:focus{
 a:hover{
     text-decoration: underline;
 }
-html *{
-    font-family: 'Comfortaa', cursive;
-}
+
 /* cores de fundo */
 .fundo-azul{
     background-color: #69C8C9;
 }
 .fundo-azul-titulo{
-    background-color: #C3E9E9;
+    background-color: #C2E9EA;
 }
 
 .fundo-azul-descricao{
-    background-color: #E1F4F4;
+    background-color: #E1F4F5;
 }
 
 .fundo-branco{
@@ -182,7 +186,7 @@ html *{
     border-bottom: solid #EDEDED 1px;
 }
 .box-divulgacao.evento .localizacao .columns{
-    border-left: solid #C3E9E9 1px;
+    border-left: solid #B0E3E3 1px;
     min-height: 85px;
 }
 .box-divulgacao.evento .localizacao .columns:first-child{
