@@ -70,7 +70,7 @@ html *{
 }
 /* fim - tamanho de texto */
 
-/* Aredondamentos */
+/* Arredondamentos */
 .borda-esquerda-rodape-radio-personalizado{
     -webkit-border-bottom-left-radius: 80px 100px;
     -moz-border-radius-bottomleft: 80px 100px;
@@ -78,20 +78,21 @@ html *{
     border-left: solid #fff 5px;
 }
 
-.aredondar{
+.arredondar{
     border-radius: 0.5em;
     padding: 0.357em;
 }
 
-.aredondar-topo{
-    border-top-right-radius: 1em;
-    border-top-left-radius: 1em;
+.arredondar-topo{
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    padding: 0.357em;
 }
 
 .borda-cinza{
     box-shadow: 0px 0px 2px 2px #EDEDED;
 }
-/* fim - Aredondamentos */
+/* fim - Arredondamentos */
 
 /* Menu Superior */
 .top-bar{
@@ -122,7 +123,7 @@ html *{
     -webkit-border-bottom-right-radius: 170px 120px;
     -moz-border-radius-bottomright: 170px 120px;
     border-bottom-right-radius: 170px 120px;
-    border-bottom: solid #fff 5px;
+    border-bottom: solid #fff 10px;
 }
 #menu-lateral .box-informacoes-usuario .nome{
     color: #FFFFFF;
@@ -155,7 +156,7 @@ html *{
     margin-bottom: 0.5em;
 }
 
-.box-divulgacao .comentario textarea{
+.comentario textarea{
     background-color: #f6f6f6;
     margin: 0px 0px 14px;
     height: 57px;
