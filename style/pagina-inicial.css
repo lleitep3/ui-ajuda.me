@@ -145,6 +145,10 @@ a:hover{
     border-bottom: solid #706B71 2px;
     margin-bottom: 10px;
 }
+
+.badge{
+    margin: 2px;
+}
 /* fim - Menu Lateral */
 
 /* Segunda coluna */
